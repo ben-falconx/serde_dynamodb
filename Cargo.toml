@@ -23,7 +23,7 @@ rusoto_core = { version = "0.42.0", default-features = false }
 rusoto_dynamodb = { version = "0.42.0", default-features = false }
 
 [features]
-default = ["rusoto_dynamodb", "rusoto_dynamodb/rustls"]
+default = ["rusoto_dynamodb/rustls"]
 
 rustls = ["rusoto_dynamodb", "rusoto_dynamodb/rustls"]
 native-tls = ["rusoto_dynamodb", "rusoto_dynamodb/native-tls"]
